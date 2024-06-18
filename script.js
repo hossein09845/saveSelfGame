@@ -362,7 +362,6 @@ addEventListener("click", click);
 addEventListener("touchstart", click);
 
 addEventListener("keydown", (e) => {
-  console.log(e.key)
   switch (e.key) {
     case 'Escape':
       pasue(!gamePause);
